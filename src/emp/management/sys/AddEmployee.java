@@ -20,19 +20,12 @@ import com.toedter.calendar.JTextFieldDateEditor;
 public class AddEmployee extends JFrame implements ActionListener {
 	Random hempid = new Random();
 	int number = hempid.nextInt(9999);
-
-
-
 	JTextField hname , hfathername, haddress,hAadharno,hPhoneNO ,hsalary,hdesignation,hemail
 	,hpan;
 	JLabel id;
 	JDateChooser hdob;
 	JComboBox education,hcountry,hgender;
-
 	JButton hadd,hback;
-
-
-
 	public AddEmployee() {
 
 		getContentPane().setBackground(new Color(184, 196, 209));
